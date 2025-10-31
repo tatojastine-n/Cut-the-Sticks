@@ -1,1 +1,2 @@
 # Cut-the-Sticks
+This C# program simulates repeatedly cutting sticks until none remain. The `cutTheSticks` function sorts the stick lengths, then in each iteration counts the remaining sticks, subtracts the smallest positive stick length from all sticks, removes sticks reduced to zero, and records the count. The process continues until all sticks are gone. The `Main` method reads the stick lengths, calls the function, and outputs the counts after each cut.
